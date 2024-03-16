@@ -3,19 +3,19 @@
 
 My Golang development scaffold, an API framework based on modular design using Gin, encapsulating common functionalities.
 
-- `rate` interface limiting
+- Rate-limitd APIs by `rate` 
 - email notification when panic exception occurs
-- cross-origin resource sharing (`CORS`) in interfaces
-- recording `Prometheus` metrics
-- generating `Swagger` API documentation
-- `tracing` internal project links
-- performance profiling with `pprof`
-- unified error code definition with `errno`
-- log collection with `zap`
-- configuration file parsing with `viper`
-- the `gorm` database component
-- the `go-redis` component
-- `RESTful API` response value specification
-- code generators that generate data table CURD, controller methods, etc.
-- `cron` scheduled tasks, configurable in the background interface
-- real-time communication with `websockets`, demonstrated in the background interface
+- cross-origin resource sharing (`CORS`)
+- Metrics monitoring and alerting by `Prometheus`
+- Automatically generate RESTful API documentation by `Swagger`
+- Trace project internal invoking
+- Visualized performance analysis by `pprof`
+- Uniformly defined error codes by `errno`
+- Blazing fast, structured, leveled logging system by `zap`
+- Complete configuration solution by `viper`
+- Developer Friendly ORM library by `gorm`
+- Redis by `go-redis`
+- Standard RESTful API return value
+- CURD code generator , controller generator, etc.
+- `cron` scheduled tasks
+- real-time communication with `websockets`
